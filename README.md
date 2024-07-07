@@ -43,6 +43,13 @@ ZFixBuy HUB is your ultimate online marketplace for new and used products, offer
 - Postman
 - Google Analytics or Mixpanel
 
+## Authors
+
+- **Ismail ZAHIR** - Software Engineer & CEO at ZFixBuy HUB.
+    - [Email](mailto:ismailza407@gmail.com)
+    - [LinkedIn](https://www.linkedin.com/in/ismailzahir01/)
+    - [GitHub](https://www.github.com/ismailza)
+
 ## Contact
 
 For any inquiries, please contact ismailza407@gmail.com
