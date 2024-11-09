@@ -1,55 +1,51 @@
-# ZFixBuy HUB
+# kolchi.ma
 
-ZFixBuy HUB is your ultimate online marketplace for new and used products, offering top-notch repair services. Discover great deals, sell your products, and get expert repairs all in one place!
+kolchi.ma is an advanced online marketplace designed for the buying and selling of new and used products with a unique repair services integration. Our platform enables users to discover great deals, manage their products, request repairs, and enjoy a personalized experience all in one place. Built with a scalable, microservices architecture, kolchi.ma ensures flexibility, security, and optimized performance to deliver an exceptional user experience.
 
 ## Features
+#### User & Authentication
+   - **User Registration and Authentication**: Secure sign-up and login for Admins, Sellers, and Clients, with support for social media integration, email verification, and password reset.
+   - **User Profiles and Personalization**: Users can manage their profiles, update settings, and receive personalized recommendations tailored to their interactions on the platform.
+#### Product & Order Management
+   - **Product Listings**: Sellers can create, manage, and display new and used product listings, including bulk uploads and image management.
+   - **Order Management**: Clients can place orders and track their status. Sellers can manage orders, update statuses, and handle cancellations/returns.
+#### Payments & Financials
+   - **Payment Integration**: Secure payment processing offering clients various payment methods.
+   - **Promotions and Discounts**: Sellers can create and manage promotions, including discount codes and flash sales displayed on the homepage.
+#### Service Requests & Communication
+   - **Repair Service Requests**: Clients can request repair services, schedule appointments, and track the status of their requests.
+   - **Messaging System**: Real-time, integrated messaging for direct communication between Clients and Sellers, with notifications for new messages.
+#### Admin Tools
+   - **Admin Dashboard**: Comprehensive management tools for Admins to handle users, product listings, and orders. Provides access to analytics and support ticket handling.
+#### Reviews & Ratings
+   - **Review and Rating System**: Clients can leave reviews and ratings for products and repair services. Sellers can respond, and Admins can moderate reviews for quality and compliance.
+#### Recommendations & Notifications
+   - **Recommendation Service**: Personalized product and service recommendations based on user behavior and platform interactions.
+   - **Notification System**: Real-time notifications for order status updates, new messages, promotions, and more, keeping users informed of important events.
 
-- **User Registration and Authentication**: Secure sign-up and login for Admins, Sellers, and Clients, with social media integration, email verification, and password reset.
-- **Product Listings**: Sellers can create, manage, and display new and used product listings, including bulk uploads.
-- **Order Management**: Clients can place orders and track their status. Sellers can manage orders, update statuses, and handle cancellations/returns.
-- **Payment Integration**: Secure payment processing through Stripe or PayPal, supporting multiple payment methods.
-- **Repair Service Requests**: Clients can request repair services, schedule appointments, and track the status of their requests.
-- **Admin Dashboard**: Admins can manage users, listings, and orders, view analytics, and handle support tickets.
-- **Reviews and Ratings**: Clients can leave reviews and ratings for products and repair services, and Sellers can respond. Admins can moderate reviews.
-- **Messaging System**: Integrated messaging for direct communication between Clients and Sellers, with real-time notifications.
-- **Promotions and Discounts**: Sellers can create and manage promotions, such as discount codes and flash sales, displayed on the homepage.
-- **User Profiles and Personalization**: Users can manage their profiles, receive personalized recommendations, and customize their experience.
+## Microservices Architecture
+kolchi.ma leverages a microservices architecture to separate functionalities into individual, manageable components. Each service is responsible for a specific domain, ensuring scalability and resilience.
 
-## Tech Stack
+### Core Microservices
+- **Authentication Service**: Manages user login, registration, and token-based authentication.
+- **User Service**: Handles user profiles, settings, and personalization.
+- **Product Service**: Manages product listings, including creation, updates, and image handling.
+- **Order Service**: Manages orders, tracking, and order history.
+- **Payment Service**: Integrates with Stripe and PayPal for secure payments.
+- **Repair Service**: Manages repair requests and scheduling.
+- **Admin Service**: Provides analytics, user and order management, and support ticket handling.
+- **Review and Rating Service**: Allows users to review and rate products and services.
+- **Messaging Service**: Facilitates direct messaging with real-time notifications.
+- **Promotion Service**: Manages discounts, flash sales, and other promotions.
+- **Notification Service**: Sends real-time notifications for various platform events.
+- **Recommendation Service**: Delivers personalized recommendations based on user interactions.
 
-**Frontend:**
-- React.js
-- Next.js
-- Redux or Context API
-- Material-UI or Chakra UI
-- Formik or React Hook Form
-
-**Backend:**
-- Node.js
-- Express.js
-- PostgreSQL or MongoDB
-- JWT (JSON Web Tokens)
-- Sequelize or Mongoose
-
-**DevOps/Deployment:**
-- Vercel
-- Heroku or DigitalOcean
-- Docker
-- GitHub Actions or CircleCI
-
-**Additional Tools:**
-- Git and GitHub
-- Jest and React Testing Library
-- Postman
-- Google Analytics or Mixpanel
 
 ## Authors
-
-- **Ismail ZAHIR** - Software Engineer & CEO at ZFixBuy HUB.
+- **Ismail ZAHIR** - Software Engineer & CEO at kolchi.ma.
     - [Email](mailto:ismailza407@gmail.com)
     - [LinkedIn](https://www.linkedin.com/in/ismailzahir01/)
     - [GitHub](https://www.github.com/ismailza)
 
 ## Contact
-
 For any inquiries, please contact ismailza407@gmail.com
